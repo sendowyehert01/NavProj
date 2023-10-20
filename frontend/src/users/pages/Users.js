@@ -1,6 +1,13 @@
+import UsersList from '../components/UsersList';
+
 function Users() {
+  const USERS = [
+    { id: 'u1', name: 'Sendo Galang', places: 3, image: ''},
+    { id: 'u2', name: 'Jeffel Sigaw', places: 1, image: ''}
+    ]
+  
   return (
-    <h1>Users Works!</h1>
+    <UsersList items={USERS} />
   )
 }
 
